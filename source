@@ -1,0 +1,322 @@
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
+
+local Library = DarkraiX:Window("Darkrai X","","",Enum.KeyCode.RightControl);
+
+Tab1 = Library:Tab("Credit")
+
+Tab1:Button("UI Library = Darkrai X",function()
+    print("Use Darkrai X UI library :D")
+end)
+
+
+Tab1:Button("Contact me, Discord = originalstar_walker for bugs",function()
+    print("DM originalstar_walker on discord for help/ bugs")
+end)
+
+
+Tab1:Button("Nobody Likes brazilnumerocinco :/",function()
+    print("tell brazilnumerocinco to Go Away")
+end)
+
+
+
+Tab1 = Library:Tab("TP PLACES")
+
+Tab1:Button("TP to shop",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-161.962646484375, 14.998133659362793, 311.5132131113281)
+end)
+
+Tab1:Button("TP to Event Area (Could be a fight)",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-97.06958770751953, 15.662306785583496, 196.35775756835938)
+end)
+
+
+Tab1 = Library:Tab("Equip Owned Knifes")
+
+Tab1:Button("Equip Stick",function()
+    local args = {
+ [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("Stick")
+ }
+ 
+ game:GetService("Lighting"):WaitForChild("UseWeapon"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Equip Toy Knife",function()
+    local args = {
+ [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("toy knife")
+ }
+ 
+ game:GetService("Lighting"):WaitForChild("UseWeapon"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Equip Tough Glove",function()
+    local args = {
+ [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("tough glove")
+ }
+ 
+ game:GetService("Lighting"):WaitForChild("UseWeapon"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Equip Burnt Pan",function()
+    local args = {
+ [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("burnt pan")
+ }
+ 
+ game:GetService("Lighting"):WaitForChild("UseWeapon"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Equip Torn Notebook",function()
+    local args = {
+ [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("torn notebook")
+ }
+ 
+ game:GetService("Lighting"):WaitForChild("UseWeapon"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Equip Worn Dagger",function()
+    local args = {
+ [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("worn dagger")
+ }
+ 
+ game:GetService("Lighting"):WaitForChild("UseWeapon"):FireServer(unpack(args))
+end)
+
+
+
+Tab1 = Library:Tab("Equip Owned Armor")
+
+Tab1:Button("Equip Faded Ribbon",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("faded ribbon")
+    }
+    
+    game:GetService("Lighting"):WaitForChild("EquipArmor"):FireServer(unpack(args))
+end)
+
+Tab1:Button("Equip Manly Bandana",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("manly bandana")
+    }
+    
+    game:GetService("Lighting"):WaitForChild("EquipArmor"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Equip Temmie R Mor 🥶",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("temmie r mor")
+    }
+    
+    game:GetService("Lighting"):WaitForChild("EquipArmor"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Equip Cowboy Hat",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("cowboy hat")
+    }
+    
+    game:GetService("Lighting"):WaitForChild("EquipArmor"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Equip The Locket",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("the locket")
+    }
+    
+    game:GetService("Lighting"):WaitForChild("EquipArmor"):FireServer(unpack(args))
+end)
+
+
+Tab1 = Library:Tab("Buy Food")
+
+
+Tab1:Button("Buy Monster Candy (10 GOLD)",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Food"):WaitForChild("MonsterCandy"),
+    [2] = "Food"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+Tab1:Button("Buy Ze Pie (5000 GOLD)",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Food"):WaitForChild("pie"),
+    [2] = "Food"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+Tab1:Button("Buy Legendary Hero (12500 GOLD)",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Food"):WaitForChild("LegendaryHero"),
+    [2] = "Food"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+
+
+Tab1 = Library:Tab("Buy Armor")
+
+
+Tab1:Button("Buy Faded Ribbon (50 GOLD)",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("faded ribbon"),
+    [2] = "Armor"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Buy Manly bandana (200 GOLD)",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("manly bandana"),
+    [2] = "Armor"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Buy Temmie R Mor 🥶 (9999 GOLD)",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("temmie r mor"),
+    [2] = "Armor"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Buy Cowboy Hat (1100 GOLD)",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("cowboy hat"),
+    [2] = "Armor"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Buy The Locket (20000 GOLD)",function()
+    local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Armor"):WaitForChild("the locket"),
+    [2] = "Armor"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+
+Tab1 = Library:Tab("Buy Knifes")
+
+
+Tab1:Button("Buy Toy Knife (52 GOLD)",function()
+local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("toy knife"),
+    [2] = "Weapon"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Buy Tough Glove (250 GOLD)",function()
+local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("tough glove"),
+    [2] = "Weapon"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Buy burnt pan (1500 GOLD)",function()
+local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("burnt pan"),
+    [2] = "Weapon"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Buy Torn Notebook (700 GOLD)",function()
+local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("torn notebook"),
+    [2] = "Weapon"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+Tab1:Button("Buy Worn Dagger (5000 GOLD)",function()
+local args = {
+    [1] = game:GetService("Lighting"):WaitForChild("Weapons"):WaitForChild("worn dagger"),
+    [2] = "Weapon"
+    }
+    
+    Game:GetService("Lighting"):WaitForChild("Buy"):FireServer(unpack(args))
+end)
+
+
+
+Tab1 = Library:Tab("Fight Enemies")
+
+Tab1:Button("Fight Froggit",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-159.75848388671875, 15.078143119812012, 17.9656925201416)
+end)
+
+
+Tab1:Button("Fight Toriel",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28.774993896484375, 20.98804473876953, -131.9538116455078)
+end)
+
+
+Tab1:Button("Fight Papyrus",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(177.66876220703125, 20.97146987915039, -133.1355438232422)
+end)
+
+
+Tab1:Button("Fight Undyne",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(417.2934875488281, 21.635643005371094, -132.39553833007812)
+end)
+
+
+
+Tab1:Button("Fight Undyne The Undying",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(356.3967590332031, 21.635643005371094, -141.00123596191406)
+end)
+
+
+Tab1:Button("Fight Mettaton",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(610.2020874023438, 54.07322692871094, -247.3415985107422)
+end)
+
+
+ Tab1:Button("Fight Sans",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(620.2075805664062, 85.4630355834961, 85.60543823242188)
+end)
+
+
+ Tab1:Button("Fight Asgore",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(405.94482421875, 99.9903793334961, -175.81932067871094)
+end)
+
+
+
+
