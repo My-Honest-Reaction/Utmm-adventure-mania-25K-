@@ -13,6 +13,11 @@ Tab1:Button("Contact me, Discord = originalstar_walker for bugs",function()
     print("DM originalstar_walker on discord for help/ bugs")
 end)
 
+Tab1:Button("https://discord.gg/yEfncQWvuY",function()
+    print("https://discord.gg/yEfncQWvuY")
+end)
+
+
 
 Tab1:Button("Nobody Likes brazilnumerocinco :/",function()
     print("tell brazilnumerocinco to Go Away")
